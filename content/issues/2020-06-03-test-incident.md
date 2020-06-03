@@ -2,7 +2,7 @@
 section: issue
 title: Test incident
 date: 2020-06-03T14:50:02.737Z
-resolved: false
+resolved: true
 informational: false
 resolvedWhen: 2020-06-03T15:50:15.251Z
 affected:
