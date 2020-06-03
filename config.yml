@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Hiya Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -120,11 +120,7 @@ params:
   #
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
-  categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast      
+  categories:  
     - name: Uncategorized
       untitled: true
 
@@ -135,9 +131,9 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      category: Uncategorized
     - name: Backup Gateway
-      category: East Coast
+      category: Uncategorized
     - name: API
       description: The guts of the application.
       category: Uncategorized
@@ -192,7 +188,7 @@ params:
   #
   # Default: false
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
@@ -249,7 +245,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#673ab7"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
